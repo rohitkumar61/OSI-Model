@@ -35,7 +35,7 @@ A web browser is a network application, it doesn't reside inside the application
 
 All the above protocols form the application layer and form the basis for file transfer, web surfing, emails, and virtual terminal.
 
-### **Presentation Layer**
+### 2. **Presentation Layer**
 <img width = '753' alt = 'application layer' src = 'assests/presentation_layer.png'>
 It consists of three process:
 
@@ -53,7 +53,7 @@ Due to data compression file size is reduced and at the destination, it can be r
 Before transferring data at the destination, data is encrypted which enhances the security of data then at the receiver side data is being decrypted. SSL protocols provide secure sockets layer
 
 
-4. ###  **Session layer**
+3. ###  **Session layer**
 <img width = '753' alt = 'application layer' src = 'assests/session_layer.png'>
 
 
