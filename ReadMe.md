@@ -1,6 +1,6 @@
 # OSI MODEL :  **Opens Systems Interconnection Model**
 
-<img width="753" alt="Screenshot (641)" src="assests/osi.webp">
+<img width="753" alt="OSI Model" src="assests/osi.webp">
 
 
 
@@ -36,7 +36,7 @@ A web browser is a network application, it doesn't reside inside the application
 All the above protocols form the application layer and form the basis for file transfer, web surfing, emails, and virtual terminal.
 
 ### 2. **Presentation Layer**
-<img width = '753' alt = 'application layer' src = 'assests/presentation_layer.png'>
+<img width = '753' alt = 'Presentatipon Layer' src = 'assests/presentation_layer.png'>
 It consists of three process:
 
 - **Translation** 
@@ -54,7 +54,7 @@ Before transferring data at the destination, data is encrypted which enhances th
 
 
 3. ###  **Session layer**
-<img width = '753' alt = 'application layer' src = 'assests/session_layer.png'>
+<img width = '753' alt = 'Session Layer' src = 'assests/session_layer.png'>
 
 
 It helps in setting up and managing connections,  enabling data sharing, and followed by termination of connections and sessions.
@@ -80,7 +80,7 @@ Session files keep the track of files, eg suppose a web page contains image and 
 
 4. ### **Transport Layer**
 
-<img width = '753' alt = 'application layer' src = 'assests/transport-layer-protocols-tcp-vs-udp.jpg'>
+<img width = '753' height = "500" alt = 'Transport Layer' src = 'assests/transport-layer-protocols-tcp-vs-udp.jpg'>
 
 The transport layer controls the reliability of communication through the following ways:
  
@@ -107,7 +107,7 @@ UDP is faster than TCP because it does not provide feedback
 
 5. ### **Network Layer**
 
-<img width = '753' alt = 'application layer' src = 'assests/network-layer.jpg'>
+<img width = '753' alt = 'Network Layer' src = 'assests/network-layer.jpg'>
  
  It takes the segments from the transport layer and works on received data segments from one computer to another computer at the different network locations.
  Data units in the network layer are called packets. It is the layer where routers reside.
@@ -126,10 +126,10 @@ UDP is faster than TCP because it does not provide feedback
 
  the computer can be connected to a server in many ways, choosing the best path from source to destination is called path determination.
 
-6. ### **Data link**
+6. ### **Data Link Layer**
 
 
-<img width = '753' alt = 'application layer' src = 'assests/data_link.png'>
+<img width = '753' alt = 'Data link Layer' src = 'assests/data_link.png'>
 Data packets are received from the network layer, it contains IP address of receiver and sender.
 
 There are two kinds of addressing 
@@ -150,7 +150,7 @@ It also controls how data is placed and received from the media.
 
 7. ### **Physical layer**
 
-<img width = '753' alt = 'application layer' src = 'assests/physical_layer.png'>
+<img width = '753' alt = 'Physical Layer' src = 'assests/physical_layer.png'>
 
 It converts binary digits into signal  and transmits over local media
 it can be an electrical signal in the case of copper wire, the light signal, in the case of optical fiber bulb, and a radio signal in case of air.
